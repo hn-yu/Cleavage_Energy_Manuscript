@@ -42,14 +42,14 @@ We have included the cgcnn we used, and `random_assignment` method. `random_assi
 We have included the optimized paramters we used for CGCNN: 
 
 ```
-"atom_fea_len": 43, <br/>
-"batch_size": 87, <br/>
-"step": "0.1", <br/>
-"epochs": 218, <br/>
-"h_fea_len": 114, <br/>
-"log_learning_rate": -6.465085550816676, <br/>
-"n_conv": 8, <br/>
-"n_h": 3, <br/>
-"max_num_nbr": 12, <br/>
+"atom_fea_len": 43, 
+"batch_size": 87, 
+"step": "0.1",
+"epochs": 218,
+"h_fea_len": 114,
+"log_learning_rate": -6.465085550816676,
+"n_conv": 8,
+"n_h": 3,
+"max_num_nbr": 12,
 "optimizer": "AdamW"
 ```
