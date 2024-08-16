@@ -40,6 +40,8 @@ Located in the `train_CGCNN_model` folder.
 We have included the cgcnn we used, and `random_assignment` method. `random_assignment_method.ipynb` notebook splits the data randomly into 8:2 training: test set, and uses CGCNN to train a model. **You need to clone the CGCNN repository and install all the prerequisite packages in order to run these notebooks** 
 
 We have included the optimized paramters we used for CGCNN: 
+
+```
 "atom_fea_len": 43, <br/>
 "batch_size": 87, <br/>
 "step": "0.1", <br/>
@@ -50,4 +52,4 @@ We have included the optimized paramters we used for CGCNN:
 "n_h": 3, <br/>
 "max_num_nbr": 12, <br/>
 "optimizer": "AdamW"
-
+```
