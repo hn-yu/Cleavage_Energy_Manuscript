@@ -2,6 +2,12 @@
 
 This repository contains various scripts/notebooks we used to create the results in our paper.
 
+## Clone the repository including submodules:
+
+```
+git clone --recurse-submodules git@github.com:hn-yu/Cleavage_Energy_Manuscript.git
+```
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -25,7 +31,7 @@ This repository contains various scripts/notebooks we used to create the results
 
 Located in the `cleavage_energy_dataset` folder. 
 
-We have included a pickel file that contain our cleavage energy data, along with a Jupyter notebook (`read_data.ipynb`).
+We have included a pickel file that contain our cleavage energy data.
 
 ### Train a CGCNN model
 
